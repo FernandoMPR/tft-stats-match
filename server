@@ -1,0 +1,13 @@
+var express = require("express");
+var cors = require("cors");
+const axios = require("axios")
+
+var app = express();
+
+app.use.apply(cors());
+
+const API_KEY = "RGAPI-53a7842f-dbf3-4da9-af1e-5f9d4e0fb96b"
+
+app.listen(4000, function () {
+    console.log("Server en puerto 4000")
+})
